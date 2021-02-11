@@ -1,0 +1,40 @@
+<div class="mt-4">
+    <h2>Đăng tải sách</h2>
+
+    <form method="POST" action="/books/store">
+        <div class="form-group">
+            <label for="name-input">Tên sách : </label>
+            <input name="name" type="text" class="form-control" id="name-input" placeholder="Nhập tên sách...">
+        </div>
+        <div class="form-group">
+            <label for="image-input">Link ảnh : </label>
+            <input name="image" type="url" class="form-control" id="image-input" placeholder="Nhập link ảnh...">
+        </div>
+        <div class="form-group">
+            <label for="price-input">Đơn giá : </label>
+            <input name="price" type="number" class="form-control" id="price-input" placeholder="Nhập đơn giá...">
+        </div>
+        <div class="form-group">
+            <label for="quantity-input">Số lượng : </label>
+            <input name="quantity" type="number" class="form-control" id="quantity-input" placeholder="Nhập số lượng...">
+        </div>
+        <div class="form-group">
+            <label for="publisher-input">Nhà xuất bản : </label>
+            <input name="publisher" type="text" class="form-control" id="publisher-input" placeholder="Nhập nhà xuất bản...">
+        </div>
+        <div class="form-group">
+            <label for="publicationDate-input">Ngày xuất bản : </label>
+            <input name="publicationDate" type="datetime-local" class="form-control" id="publicationDate-input" placeholder="Nhập ngày xuất bản...">
+        </div>
+        <div class="form-group">
+            <label for="author-input">Tác giả : </label>
+            <input name="author" type="text" class="form-control" id="author-input" placeholder="Nhập tên tác giả...">
+        </div>
+        <div class="form-group">
+            <label for="description-input">Mô tả tình trạng : </label>
+            <textarea name="description" class="form-control" id="description-input" placeholder="Nhập ngày xuất bản..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Đăng tải sách</button>
+    </form>
+
+</div>

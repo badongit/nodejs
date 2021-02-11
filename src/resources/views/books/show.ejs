@@ -1,0 +1,18 @@
+<div class="show-book">
+    <div class="mt-4">
+        <div class="row">
+            <div class="col-lg-4">
+                <img src="<%= book.image %>" alt="">
+            </div>
+            <div class="col-lg-8">
+                <h4><%= book.name %></h4>
+                <p>Số lượng : <%= book.quantity %></p>
+                <p>Nhà xuất bản : <%= book.publisher %></p>
+                <p>Tác giả : <%= book.author %></p>
+                <p>Mô tả : <%= book.description %></p>
+                <b class="price" ><%= formatter.format(book.price) %></b>
+            </div>
+        </div>
+    
+    </div>
+</div>
